@@ -11,9 +11,7 @@ The raspi running the publisher code will publish via mqtt protocol an event, de
 ## Prerequesites
 
 * Arduino Uno
-* Sound sensor, in my case I used [alteruca](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjQmtnDnoDmAhWB4ncKHYQgAGQYABAGGgJlZg&ohost=www.google.com&cid=CAESQOD2eLqGs1k7qoRV71mM60Cm8Lhbiqc3tEpx2iLtvKOC6xW9ofnhRqxIy1hkpZWw-e7X58nFXbk8EIvoFQEqx5Y&sig=AOD64_0Kx4pLqKqk3gstvbkL_GVx4cx2Kg&ctype=5&q=&ved=2ahUKEwi619HDnoDmAhVVIMUKHeNnA9QQ9aACegQICxBG&adurl=)
-
-[this one](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjQmtnDnoDmAhWB4ncKHYQgAGQYABAGGgJlZg&ohost=www.google.com&cid=CAESQOD2eLqGs1k7qoRV71mM60Cm8Lhbiqc3tEpx2iLtvKOC6xW9ofnhRqxIy1hkpZWw-e7X58nFXbk8EIvoFQEqx5Y&sig=AOD64_0Kx4pLqKqk3gstvbkL_GVx4cx2Kg&ctype=5&q=&ved=2ahUKEwi619HDnoDmAhVVIMUKHeNnA9QQ9aACegQICxBG&adurl=)
+* Sound sensor, in my case I used [this one](https://www.google.com/imgres?imgurl=https%3A%2F%2Fleantec.es%2Fwp-content%2Fuploads%2F2018%2F02%2Fp_2_1_7_0_2170-Detector-de-sonido-Chip-LM393-Modulo-Microfono-para-Arduino.jpg&imgrefurl=https%3A%2F%2Fleantec.es%2Ftienda%2Fdetector-de-sonido-chip-lm393-modulo-microfono-para-arduino%2F&docid=2j7GZDZtMvUZwM&tbnid=a5Pxw5mhb6JtUM%3A&vet=10ahUKEwjruLfIsYDmAhUSGewKHWwfAKsQMwi2ASgGMAY..i&w=1500&h=1500&safe=off&client=firefox-b-d&bih=813&biw=1400&q=lm393&ved=0ahUKEwjruLfIsYDmAhUSGewKHWwfAKsQMwi2ASgGMAY&iact=mrc&uact=8)
 
 * Motherboard
 * Raspberry Pi
