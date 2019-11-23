@@ -11,7 +11,9 @@ The raspi running the publisher code will publish via mqtt protocol an event, de
 ## Prerequesites
 
 * Arduino Uno
-* Sound sensor, in my case I used [this one](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjQmtnDnoDmAhWB4ncKHYQgAGQYABAGGgJlZg&ohost=www.google.com&cid=CAESQOD2eLqGs1k7qoRV71mM60Cm8Lhbiqc3tEpx2iLtvKOC6xW9ofnhRqxIy1hkpZWw-e7X58nFXbk8EIvoFQEqx5Y&sig=AOD64_0Kx4pLqKqk3gstvbkL_GVx4cx2Kg&ctype=5&q=&ved=2ahUKEwi619HDnoDmAhVVIMUKHeNnA9QQ9aACegQICxBG&adurl=)
+* Sound sensor, in my case I used [alteruca](https://github.com/alteruca)
+
+[this one](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjQmtnDnoDmAhWB4ncKHYQgAGQYABAGGgJlZg&ohost=www.google.com&cid=CAESQOD2eLqGs1k7qoRV71mM60Cm8Lhbiqc3tEpx2iLtvKOC6xW9ofnhRqxIy1hkpZWw-e7X58nFXbk8EIvoFQEqx5Y&sig=AOD64_0Kx4pLqKqk3gstvbkL_GVx4cx2Kg&ctype=5&q=&ved=2ahUKEwi619HDnoDmAhVVIMUKHeNnA9QQ9aACegQICxBG&adurl=)
 
 * Motherboard
 * Raspberry Pi
