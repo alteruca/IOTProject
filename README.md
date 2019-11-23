@@ -29,10 +29,10 @@ And the connection between the motherboard and the arduino to get the signal
 
 ## Deployment
 
-*1- Prepare de connections between the arduino and the sensors as shown in the images.
-*2- Run the program arduino.ino to write in the serial
-*3- Run the program easy.py in the raspi to listen the serial and also publish the events with mqtt
-*4- Run the program mqtt_sub.py in another computer in which you want to receive the event from the mqtt server of the subscription.
+* 1- Prepare de connections between the arduino and the sensors as shown in the images.
+* 2- Run the program arduino.ino to write in the serial
+* 3- Run the program easy.py in the raspi to listen the serial and also publish the events with mqtt
+* 4- Run the program mqtt_sub.py in another computer in which you want to receive the event from the mqtt server of the subscription.
 
 **NOTE: Run the program mqtt_sub.py before easy.py or you may lose the first events sended!!**
 
