@@ -19,18 +19,22 @@ The raspi running the publisher code will publish via mqtt protocol an event, de
 
 ## Install
 
-In the picture below you can see the connection of the sensor into the motherboard and it connected to the arduino
+In the picture below you can see the connection of the sensor into the motherboard 
 
 ![alt text](IMG_20170721_184207.jpg)
 
+And the connection between the motherboard and the arduino to get the signal
+
+![alt text](IMG_20170721_184152.jpg)
+
 ## Deployment
 
+1- Prepare de connections between the arduino and the sensors as shown in the images.
+2- Run the program arduino.ino to write in the serial
+3- Run the program easy.py in the raspi to listen the serial and also publish the events with mqtt
+4- Run the program mqtt_sub.py in another computer in which you want to receive the event from the mqtt server of the subscription.
 
-1-The arduino has to be connected to a clap senson in a motherboard in order the catch the sounds and transform them into an event that will process the raspberry into an event in the MQTT cloud. The arduino has to be connected to the raspberry via USB
-
-2-Run the client in the raspberry that will connect to the MQTT cloud which will send all the information to the server (running in your laptop, for instance) which is already listening to the cloud. 
-
-NOTE: run the server listening before the client sending!!
+**NOTE: Run the program mqtt_sub.py before easy.py or you may lose the first events sended!!**
 
 ## Author
 
