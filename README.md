@@ -1,5 +1,14 @@
 # IOTProject
-Internet of things project about a sound sensor that catches the sound  of a clap in the arduino and creates an event that sends the client in the raspberryPi to open a web page browser in the server (in my case the laptop running the server)
+Internet of things project based on a sound sensor that gets the sound of a some noise in the arduino and creates an event that sends the client in the raspberryPi to open a web page browser in the server (in my case the laptop running the server)
+
+IoT project in which an arduino with some sound sensors will communicate the possible sounds via 
+
+## Prerequesites
+
+## Install
+
+## Deployment
+
 
 1-The arduino has to be connected to a clap senson in a motherboard in order the catch the sounds and transform them into an event that will process the raspberry into an event in the MQTT cloud. The arduino has to be connected to the raspberry via USB
 
@@ -7,3 +16,6 @@ Internet of things project about a sound sensor that catches the sound  of a cla
 
 NOTE: run the server listening before the client sending!!
 
+## Author
+
+* **Álvaro Teruel Cañones** - *Initial work* - [alteruca](https://github.com/alteruca)
